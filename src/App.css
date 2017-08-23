@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Orbitron|Press+Start+2P|Russo+One|Zilla+Slab+Highlight');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Aldrich', sans-serif;
+
+}
+
+.outerContainer > h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+.innerContainer {
+  width: 1000px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.title {
+  text-align: center;
+  margin: 10px;
+  font-family: 'Press Start 2P', cursive;
+  color: blue;
+}
+
+.main {
+  font-family: 'Aldrich', sans-serif;
+}
+
+.iconContainer {
+  display: flex;
+  font-size: 8rem;
+  justify-content: space-around;
+}
+
+
+.iconContainer i:hover{
+  transform: scale(1.1);
+}
+
+.iconContainer i{
+  transition: 0.5s;
+}
+
+.iconContainer a {
+  text-decoration: none;
+  color: #4875B4;
+
+}
+
+.flex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-link {
+  position: absolute;
+  bottom: 0;
+  font-size: 5rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  align-self: center;
+}
+
+.portfolio-link:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+  width: 1100px;
+}
+
+.projectContainer div{
+  flex-basis: 22%;
+  border: 1px solid black;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.projectContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.projectContainer div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projectContainer div:hover .overlay {
+  opacity: 0.7;
+}
+
+
+.overlay {
+  position: relative;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  margin: 0;
+}
+
+.overlay i{
+  font-size: 2rem;
+  color: white;
+  transition: 0.5s;
+}
+
+.overlay i:hover{
+  font-size: 5rem;
+}
+
+
+@media all and (max-width: 1000px) {
+  .projectContainer div{
+    flex-basis: 30%;
+  }
+  .projectContainer {
+    width: 800px;
+  }
+}
+
+
+
+
+.picture {
+  background-image: url("/app/components/TicTacToe.png");
+  height: 200px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.picture h1 {
+  color: white;
+
+}
+.projectOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
