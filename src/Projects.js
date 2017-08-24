@@ -38,6 +38,11 @@ export default function NavBar(props){
     name: "Pixelate Image",
     websiteUrl: "https://dannyli0109.github.io/Pixelate-image/",
     githubUrl: "https://github.com/dannyli0109/Pixelate-image"
+  },
+  {
+    name: "Regscheck",
+    websiteUrl: "http://regscheck.tech/",
+    githubUrl: "https://github.com/dannyli0109/rails"
   }
 ]
 

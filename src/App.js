@@ -1,9 +1,9 @@
 import React from 'react'
-import NavBar from './NavBar'
 import Projects from './Projects'
 import './App.css'
 import $ from "jquery";
 import TypingTitle from "./TypingTitle"
+import Matrix from './Matrix'
 
 
 export default class App extends React.Component {
@@ -20,6 +20,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
+        <Matrix></Matrix>
         <div className="outerContainer">
           <div>
             <div className="innerContainer">
@@ -36,9 +37,9 @@ export default class App extends React.Component {
 
             </div>
             <span className="iconContainer">
-              <a href="https://www.linkedin.com/in/danny-li-0109/" style={{color: "#4875B4"}}><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
-              <a href="https://github.com/dannyli0109" style={{color: "#2f2f2f"}}><i className="fa fa-github-square" aria-hidden="true"></i></a>
-              <a href="mailto: dannyli0109@gmail.com" style={{color: "#2f2f2f"}}><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/danny-li-0109/" style={{color: "white"}}><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="https://github.com/dannyli0109" style={{color: "white"}}><i className="fa fa-github-square" aria-hidden="true"></i></a>
+              <a href="mailto: dannyli0109@gmail.com" style={{color: "white"}}><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
             </span>
             <div className="flex">
                 <a className="portfolio-link" href="#portfolio" onClick={this.handleLinkClick}><i className="fa fa-arrow-down" aria-hidden="true"></i></a>
